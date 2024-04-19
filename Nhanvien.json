@@ -1,0 +1,62 @@
+[
+    {
+        "DoB": "1990-01-01",
+        "fullname": "Nguyen Van A",
+        "id_nhanvien": 1,
+        "position": "Director"
+    },
+    {
+        "DoB": "1995-02-02",
+        "fullname": "Tran Thi B",
+        "id_nhanvien": 2,
+        "position": "Deputy Director"
+    },
+    {
+        "DoB": "2000-03-03",
+        "fullname": "Le Hoang C",
+        "id_nhanvien": 3,
+        "position": "Head of Human Resources"
+    },
+    {
+        "DoB": "1992-04-04",
+        "fullname": "Pham Thuy D",
+        "id_nhanvien": 4,
+        "position": "Accountant"
+    },
+    {
+        "DoB": "1997-05-05",
+        "fullname": "Vo Minh E",
+        "id_nhanvien": 5,
+        "position": "Software Engineer"
+    },
+    {
+        "DoB": "1991-06-06",
+        "fullname": "Dinh Thi F",
+        "id_nhanvien": 6,
+        "position": "Graphic Designer"
+    },
+    {
+        "DoB": "1996-07-07",
+        "fullname": "Bui Van G",
+        "id_nhanvien": 7,
+        "position": "Marketing Specialist"
+    },
+    {
+        "DoB": "2001-08-08",
+        "fullname": "Nguyen Thi H",
+        "id_nhanvien": 8,
+        "position": "Salesperson"
+    },
+    {
+        "DoB": "1993-09-09",
+        "fullname": "Le Minh I",
+        "id_nhanvien": 9,
+        "position": "Security Guard"
+    },
+    {
+        "DoB": "1998-10-10",
+        "fullname": "Pham Ngoc J",
+        "id_nhanvien": 10,
+        "position": "Receptionist"
+    }
+]

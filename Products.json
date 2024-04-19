@@ -1,0 +1,20 @@
+[
+    {
+        "id_product": 9,
+        "productName": "Bluetooth Speaker",
+        "productPrice": 800000,
+        "timeReceived": "2024-04-20T16:22:41.000Z"
+    },
+    {
+        "id_product": 10,
+        "productName": "Bluetooth Headphones",
+        "productPrice": 500000,
+        "timeReceived": "2024-04-20T16:22:42.000Z"
+    },
+    {
+        "id_product": 1,
+        "productName": "SP1",
+        "productPrice": 1999000.0,
+        "timeReceived": "1-1-2023"
+    }
+]

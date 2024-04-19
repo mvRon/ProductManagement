@@ -1,0 +1,62 @@
+[
+  {
+    "id_product": 1,
+    "productName": "Men's T-shirt",
+    "timeReceived": "2024-04-20T16:22:33.000Z",
+    "productPrice": 120000
+  },
+  {
+    "id_product": 2,
+    "productName": "Women's Jeans",
+    "timeReceived": "2024-04-20T16:22:34.000Z",
+    "productPrice": 250000
+  },
+  {
+    "id_product": 3,
+    "productName": "Sneakers",
+    "timeReceived": "2024-04-20T16:22:35.000Z",
+    "productPrice": 380000
+  },
+  {
+    "id_product": 4,
+    "productName": "Women's Handbag",
+    "timeReceived": "2024-04-20T16:22:36.000Z",
+    "productPrice": 450000
+  },
+  {
+    "id_product": 5,
+    "productName": "Smart Watch",
+    "timeReceived": "2024-04-20T16:22:37.000Z",
+    "productPrice": 1800000
+  },
+  {
+    "id_product": 6,
+    "productName": "Laptop",
+    "timeReceived": "2024-04-20T16:22:38.000Z",
+    "productPrice": 25000000
+  },
+  {
+    "id_product": 7,
+    "productName": "Smartphone",
+    "timeReceived": "2024-04-20T16:22:39.000Z",
+    "productPrice": 12000000
+  },
+  {
+    "id_product": 8,
+    "productName": "Tablet",
+    "timeReceived": "2024-04-20T16:22:40.000Z",
+    "productPrice": 5000000
+  },
+  {
+    "id_product": 9,
+    "productName": "Bluetooth Speaker",
+    "timeReceived": "2024-04-20T16:22:41.000Z",
+    "productPrice": 800000
+  },
+  {
+    "id_product": 10,
+    "productName": "Bluetooth Headphones",
+    "timeReceived": "2024-04-20T16:22:42.000Z",
+    "productPrice": 500000
+  }
+]
