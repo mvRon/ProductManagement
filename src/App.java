@@ -1,12 +1,4 @@
-import org.json.simple.*;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App {
@@ -34,6 +26,10 @@ public class App {
 			}
 			else if (choice==3) {
 				products.OutputProduct();
+			}
+			else{
+				System.out.println("Have a nice day! Wish all the best to you, Good bye!");
+				break;
 			}
 			
 		}	
