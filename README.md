@@ -1,18 +1,40 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+- App quản lý sản phẩm có các chức năng như:
+ + Thêm sản Phẩm.
+ + Xoá sản phẩm.
+ + Xem sản phẩm.
+ + Kiểm tra sản phẩm hiện đang có.
+ + Sử dụng Json làm nơi lưu trữ dữ liệu.
 
-The workspace contains two folders by default, where:
+về Thêm sản phẩm:
+- Thêm id sản phẩm, tên sản phẩm, ngày nhập hàng và giá sản phẩm.
+- id sản phẩm là Interger; tên sản phẩm + ngày nhập hàng là String; giá sản phẩm là Double.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+về Xoá sản phẩm:
+ - Xoá sản phẩm bằng cách nhập id sản phẩm muốn xoá
+ - Ở đây do quy định sản phẩm là số nguyên nên chỉ chạy vòng lặp rồi kiểm tra đơn giản rồi xoá.
+ 
+về Xem sản phẩm:
+ - Thực hiện chạy vòng lặp để xem sản phẩm có trong arrObj
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+Cấu trúc của Project:
+ - App.java : chạy file hoạt động chính.
+  + Sử dụng điều kiện để chạy chương trình.
+  + Cân nhắc thay đổi thay đổi thành Switch/Case thay thế.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ - Products.java: chứa các đối tượng.
+  + Các Methods:
+   -- InputProduct(): Nhập sản phẩm.
+   -- OutputProduct(): Xuất sản phẩm.
+   -- DeleteProduct(): Xoá sản phẩm.
+   -- loadFile(): Cập nhật dữ liệu đã thêm/xoá cho file Products.json.
+
+   
+Các chức năng cần thêm trong tương lai:
+ + Kiểm tra các điều kiện như trong quá trình nhập sai dữ liệu đầu vào.
+ + Kiểm tra phần thêm sản phẩm nếu trùng id thì chức năng xoá sản phẩm dựa trên Id là Interger sẽ hoạt động như thế nào.
+ + Kiểm tra người dùng có chắc chắc muốn xoá sản phẩm đó không.
+ + Thay đổi từ chạy chương trình từ console thành giao diện trực quan hơn. Có các nút bấm và trường để xem dữ liệu đẹp mắt và dễ dùng hơn.
