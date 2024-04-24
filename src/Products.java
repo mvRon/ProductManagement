@@ -120,7 +120,7 @@ public class Products {
 					arrObj.remove(i);
 					loadFile();
 					System.out.println("Deleted!!!");
-					System.out.println(arrObj.toJSONString());
+					// System.out.println(arrObj.toJSONString());
 					break;
 				}
 				

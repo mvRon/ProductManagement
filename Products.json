@@ -1,1 +1,14 @@
-[{"id_product":10,"timeReceived":"2024-04-20T16:22:42.000Z","productName":"Bluetooth Headphones","productPrice":500000},{"id_product":12,"timeReceived":"1-1-2003","productName":"TestSp12","productPrice":992000.0}]
+[
+    {
+        "id_product": 10,
+        "productName": "Bluetooth Headphones",
+        "productPrice": 500000,
+        "timeReceived": "2024-04-20T16:22:42.000Z"
+    },
+    {
+        "id_product": 12,
+        "productName": "TestSp12",
+        "productPrice": 992000.0,
+        "timeReceived": "1-1-2003"
+    }
+]
