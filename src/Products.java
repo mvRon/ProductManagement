@@ -108,6 +108,7 @@ public class Products {
 			JSONObject obj = new JSONObject();
 			JSONParser par = new JSONParser();
 			arrObj = (JSONArray) par.parse(reader);
+			System.out.println("Input Product's ID that you want to delete: ");
 			long deleteId = scanner.nextLong();
 
 			for(int i = 0; i<arrObj.size(); i++){
