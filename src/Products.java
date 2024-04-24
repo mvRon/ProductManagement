@@ -42,12 +42,14 @@ public class Products {
 		
 	}
 	
+	@SuppressWarnings("unchecked")
 	public void InputProduct() {
 		try{
 			FileReader reader = new FileReader(filePath);
 			JSONObject obj = new JSONObject();
 			JSONParser par = new JSONParser();
 			arrObj = (JSONArray) par.parse(reader);
+			@SuppressWarnings("resource")
 			Scanner scanner = new Scanner(System.in);
 
 			System.out.print("Input Product ID: ");
