@@ -1,5 +1,5 @@
 
-
+- App sử dụng file có định dạng như json để lưu trữ dữ liệu
 - App quản lý sản phẩm có các chức năng như:
  + Thêm sản Phẩm.
  + Xoá sản phẩm.
